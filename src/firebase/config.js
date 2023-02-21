@@ -3,13 +3,13 @@ import 'firebase/firestore'
 import 'firebase/auth'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCi_Ticcj8yJ-jb0izELxrbBqz5nQEoMmA",
-    authDomain: "live-chat-798b6.firebaseapp.com",
-    projectId: "live-chat-798b6",
-    storageBucket: "live-chat-798b6.appspot.com",
-    messagingSenderId: "308422084004",
-    appId: "1:308422084004:web:df0904c15f06fb25406d31"
-  };
+  apiKey: "AIzaSyDTaBZMFyWKK0Y3xmHRnFp5EkWKBhVEv94",
+  authDomain: "vue-blog-de285.firebaseapp.com",
+  projectId: "vue-blog-de285",
+  storageBucket: "vue-blog-de285.appspot.com",
+  messagingSenderId: "420552813488",
+  appId: "1:420552813488:web:76d47f8075a44842b74475"
+};
 
   firebase.initializeApp(firebaseConfig)
 
