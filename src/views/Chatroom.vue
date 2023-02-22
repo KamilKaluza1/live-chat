@@ -22,7 +22,7 @@ export default{
     setup(){
         const router = useRouter()
         const {user} = getUser()
-        console.log( "here", user)
+
         watch(user, () =>{
             if(!user.value){
                 router.push({name:'welcome'})

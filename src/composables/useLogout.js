@@ -12,7 +12,7 @@ const logout = async() => {
 
     }catch(err){
         console.log(err.message)
-        console.log('źle')
+        console.log('an error occur')
         error.value = err.message
     }
 }
