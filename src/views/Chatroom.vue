@@ -4,7 +4,6 @@
         <ChatWindow/>
         <NewChatForm/>
     </div>
-<h2>chatroom</h2>
 </template>
 
 <script>

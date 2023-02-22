@@ -1,13 +1,13 @@
 <template>
     <div class="container welcome">
-        <h1>Welcome</h1>
+        <h2>Welcome </h2>
         <div v-if="showLogin">
-            <h1>Login</h1>
+            <h3>Login</h3>
             <LoginForm @login="enterChat"/>
             <p>No account yet? <span @click="showLogin=false">Singup</span></p>
         </div>
         <div v-else>
-            <h1>Sing Up</h1>
+            <h3>Sing Up</h3>
             <SingupForm @singup="enterChat"/>
             <p>Already registered? <span @click="showLogin=true">Login</span></p>
         </div>
@@ -52,7 +52,7 @@ export default{
     margin: 20px 0 10px;
 }
 .welcome input{
-    width: 100%;
+    width: 80%;
     padding: 10px;
     border-radius: 20px;
     border: 1px solid #eee;
